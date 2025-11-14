@@ -1,0 +1,97 @@
+body {
+font-family: "Poppins", sans-serif;
+background-color: #f6f4f9;
+}
+
+.navbar {
+background-color: #8e44ad !important;
+}
+
+.navbar-brand, .nav-link {
+color: white !important;
+font-weight: 600;
+}
+
+/* HERO SECTION */
+.hero {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 20px;
+background: linear-gradient(135deg, #b57edc, #8e44ad);
+color: white;
+}
+
+.hero h1 {
+font-size: 3rem;
+font-weight: 700;
+}
+
+.hero p {
+font-size: 1.2rem;
+margin-top: 10px;
+max-width: 700px;
+}
+
+.cta-btn {
+margin-top: 25px;
+padding: 12px 30px;
+font-size: 1.1rem;
+border-radius: 30px;
+background-color: white;
+color: #8e44ad;
+font-weight: 600;
+transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+background-color: #f3e8ff;
+}
+
+h1, h2 {
+text-align: center;
+margin-top: 25px;
+font-weight: 700;
+color: #4a2b66;
+}
+
+.section-title {
+color: #8e44ad;
+font-size: 1.8rem;
+margin-top: 40px;
+}
+
+.card {
+border: none;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+.card-title {
+font-weight: 600;
+color: #4a2b66;
+}
+
+.btn-primary {
+background-color: #8e44ad;
+border: none;
+}
+
+.btn-primary:hover {
+background-color: #8e44ad;
+}
+
+.cards-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding-bottom: 40px;
+}
